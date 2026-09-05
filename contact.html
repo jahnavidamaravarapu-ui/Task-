@@ -1,0 +1,259 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>TechNova | Contact</title>
+
+    <meta name="description"
+          content="Contact TechNova about your project.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <h2 class="logo">
+                TechNova
+            </h2>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html"
+                       class="active"
+                       aria-current="page">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <button class="menu-btn"
+                    onclick="toggleMenu()">
+                ☰
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-header">
+
+            <p class="subtitle">
+                GET IN TOUCH
+            </p>
+
+            <h1>
+                Contact Us
+            </h1>
+
+            <p>
+                Tell us about your project.
+            </p>
+
+        </section>
+
+
+        <section class="section contact-grid">
+
+
+            <!-- CONTACT INFORMATION -->
+            <article class="contact-info">
+
+                <h2>
+                    Let's Talk
+                </h2>
+
+                <p>
+                    Fill out the form and tell us
+                    what you need.
+                </p>
+
+                <p>
+                    📧 hello@technova.com
+                </p>
+
+                <p>
+                    📞 +91 98765 43210
+                </p>
+
+                <p>
+                    📍 Andhra Pradesh, India
+                </p>
+
+            </article>
+
+
+            <!-- FORM -->
+            <article class="form-box">
+
+                <form id="contactForm">
+
+                    <!-- NAME -->
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        required
+                        placeholder="Enter your name"
+                    >
+
+
+                    <!-- EMAIL -->
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        required
+                        placeholder="Enter your email"
+                    >
+
+
+                    <!-- RADIO BUTTONS -->
+                    <fieldset>
+
+                        <legend>
+                            Preferred Contact Method
+                        </legend>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="contact"
+                                value="email"
+                                checked
+                            >
+                            Email
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="contact"
+                                value="phone"
+                            >
+                            Phone
+                        </label>
+
+                    </fieldset>
+
+
+                    <!-- CHECKBOXES -->
+                    <fieldset>
+
+                        <legend>
+                            Services Required
+                        </legend>
+
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="service"
+                                value="web"
+                            >
+                            Web Development
+                        </label>
+
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="service"
+                                value="design"
+                            >
+                            UI Design
+                        </label>
+
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="service"
+                                value="responsive"
+                            >
+                            Responsive Design
+                        </label>
+
+                    </fieldset>
+
+
+                    <!-- MESSAGE -->
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        required
+                        placeholder="Write your message..."
+                    ></textarea>
+
+
+                    <button
+                        type="submit"
+                        class="btn">
+                        Submit
+                    </button>
+
+                </form>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 TechNova. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+```
